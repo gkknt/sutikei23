@@ -1,0 +1,3 @@
+[submodule "montecarlo"]
+	path = montecarlo
+	url = git@github.com:sudahiroshi/montecarlo.git
