@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html lang="ja-JP"></html>
-<html>
+<html lang="ja-JP">
 <head>
     <meta charset="UTF-8" />
-    <script src="./js/nylon.js"></script>
-    <script src="./js/vcanvas.js"></script>
-    <script src="./js/vbtimer.js"></script>
-    <title>title</title>
+    <link rel="stylesheet" href="nk.css">
+    <script src="./montecarlo/js/nylon.js"></script>
+    <script src="./montecarlo/js/vcanvas.js"></script>
+    <script src="./montecarlo/js/vbtimer.js"></script>]
+    <script src="./nk.js"></script>
+    <title>endless</title>
 </head>
 <body>
-konni
+    <h1>二分法/ニュートン法</h1>
+    <div id="contents">
+        <form>
+            <input type="number" id="inputx" placeholder="x" autocomplete="off">
+            +
+            <input type="number" id="input" placeholder="0" autocomplete="off">
+        </form>
+        <button type="button" id="submit" class="normal">=</button>
+        <div id="area1" class="area">
+            <p>二分法</p>
+            <canvas class="myCanvas" id="graph1" width="460" height="460"></canvas>
+            <canvas class="myCanvas" id="graph1b" width="460" height="460"></canvas>
+        </div>
+        <div id="area2" class="area">
+            <p>ニュートン法</p>
+            <canvas class="myCanvas" id="graph2" width="460" height="240"></canvas>
+            <canvas class="myCanvas" id="graph2b" width="460" height="240"></canvas>
+        </div>
+    </div>
 </body>
 </html>
